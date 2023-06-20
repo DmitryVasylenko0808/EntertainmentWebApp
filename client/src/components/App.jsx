@@ -13,7 +13,7 @@ import BookMarked from "../pages/BookMarked.jsx";
 
 const App = () => {
     return (
-        <React.StrictMode>
+        <>
             <Routes>
                 <Route path="/" element={<Layout />}>
                     <Route index element={<Main />} />
@@ -22,7 +22,7 @@ const App = () => {
                     <Route path="/bookmarked" element={<BookMarked />} />
                 </Route>
             </Routes>
-        </React.StrictMode>
+        </>
         
     )
 }
