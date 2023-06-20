@@ -1,0 +1,16 @@
+.menu-nav {
+    margin-bottom: 400px;
+}
+.menu-nav__list {
+
+}
+.menu-nav__item {
+    margin-bottom: 35px;
+}
+.menu-nav__link {
+    color: #7283d1;
+
+    &.active {
+        color: #ffffff;
+    }
+}

@@ -1,0 +1,19 @@
+.menu-avatar {
+    width: 35px;
+    height: 35px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+}
+
+.preview-block {
+    margin-bottom: 12px;
+
+    display: flex;
+    justify-content: center;
+
+    &__image {
+        width: 165px;
+        height: 165px;
+        border-radius: 50%;
+    }
+}

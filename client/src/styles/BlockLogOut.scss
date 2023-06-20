@@ -1,0 +1,23 @@
+.block-logout {
+    width: 400px;
+    padding: 30px 25px;
+    background-color: #212b56;
+    border-radius: 20px;
+
+    position: fixed;
+    top: 30%;
+    left: 38%;
+
+    color: #a4b2f1;
+
+    &__title {
+        margin-bottom: 40px;
+    
+        font-size: 24px;
+        text-align: center;
+    }
+    &__row {
+        display: flex;
+        justify-content: space-between;
+    }
+}
